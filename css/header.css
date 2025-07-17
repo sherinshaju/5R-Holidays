@@ -591,8 +591,8 @@ nav.main-menu {
 
 .mobile-menu .nav-logo {
   position: relative;
-  padding: 50px 25px 100px;
-  text-align: left;
+  padding: 0px 25px 0px;
+  text-align: center;
 }
 
 .mobile-menu-visible {
@@ -771,7 +771,7 @@ div#mCSB_1_container {
 
 .mobile-menu .contact-info {
   position: relative;
-  padding: 120px 20px 20px;
+  padding: 30px 20px 20px;
 }
 
 .mobile-menu .contact-info h4 {

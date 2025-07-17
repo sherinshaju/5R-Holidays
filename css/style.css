@@ -1263,7 +1263,7 @@ p.single-featured-car-text {
   font-weight: 500;
   margin-bottom: 25px;
   border-radius: 50px;
-  color: rgb(255, 44, 59);
+  color: #fff;
   opacity: 0;
   text-transform: uppercase;
   font-family: var(--secondary-font);
@@ -1274,7 +1274,7 @@ p.single-featured-car-text {
   line-height: 70px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: rgb(17, 17, 17);
+  color: #fff;
   opacity: 0;
   font-family: var(--primary-font);
   transition: all 0.9s ease-in-out 0s;
@@ -1288,7 +1288,7 @@ p.single-featured-car-text {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  color: rgb(17, 17, 17);
+  color: #fff;
   margin-bottom: 30px;
   opacity: 0;
   transition: all 0.9s ease-in-out 0s;
