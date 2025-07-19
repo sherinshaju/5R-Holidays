@@ -3840,3 +3840,63 @@ h4.contact-info-title {
   line-height: 20px;
   padding: 15px 30px;
 }
+.featured-booking-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+/* Tabs Navigation - modern look */
+.featured-booking-section .nav-tabs {
+  border-bottom: none;
+  justify-content: center;
+  gap: 10px;
+}
+
+.featured-booking-section .nav-tabs .nav-link {
+  position: relative;
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  color: #008080;
+  padding: 12px 30px;
+  border-radius: 5px !important;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+/* Hover effect */
+.featured-booking-section .nav-tabs .nav-link:hover {
+  background-color: rgba(0, 128, 128, 0.1);
+  color: #005f5f;
+}
+
+/* Active tab */
+.featured-booking-section .nav-tabs .nav-link.active {
+  background: #008080;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 128, 128, 0.3);
+}
+
+/* Underline animation */
+.featured-booking-section .nav-tabs .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #008080;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.featured-booking-section .nav-tabs .nav-link.active::after {
+  width: 40%;
+}

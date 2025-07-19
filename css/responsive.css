@@ -217,7 +217,15 @@
     right: -100px;
   }
   .subscribe-inner {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .subscribe-inner > div {
+    margin-bottom: 30px;
+  }
+  .subscribe-inner > div :hover {
+    opacity: 0.9;
   }
   .subscribe-inner h3 {
     margin-bottom: 15px;
